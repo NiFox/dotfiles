@@ -1,0 +1,9 @@
+[alias]
+    s = status
+    a = add
+    c = commit -m
+    co = checkout
+    pr = pull --rebase
+    hist = log --pretty=format:\"%h %ad | %s%d [%an]\" --graph --date=short
+    type = cat-file -t
+    dump = cat-file -p
